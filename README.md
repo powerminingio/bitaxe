@@ -17,14 +17,17 @@ esp-miner-factory-401-v2.9.0.bin
 # Download latest configuration
 https://github.com/powerminingio/bitaxe/tree/main/config
 # Run bitaxetool
+```
 bitaxetool --firmware <path to the firmware>
 bitaxetool --config <path to the config>
+```
 
-#Sample command lines:
+# Sample command lines:
+```
 bitaxetool --firmware ./config/esp-miner-factory-NerdQAxe++-v1.0.31.bin
 bitaxetool --config ./config/config_black_june.cvs
 
 bitaxetool --firmware ./esp-miner-factory-401-v2.4.2.bin
 bitaxetool --config ./config-401.cvs
 bitaxetool --config ./config-401.cvs --firmware ./esp-miner-factory-401-v2.4.2.bin
-
+```
