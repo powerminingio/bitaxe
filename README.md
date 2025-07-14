@@ -1,4 +1,4 @@
-First time install
+# First time install
 https://www.python.org/downloads/ 
 
 Windows: install from website, not Store
@@ -7,24 +7,23 @@ Mac: enable virtual environment
 python3 -m venv venv 
 . venv/bin/activate
 pip install --upgrade bitaxetool
-Download latest firmware
-NerdQAxe
+# Download latest firmware
+## NerdQAxe
 https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/
 esp-miner-factory-NerdQAxe++-v1.0.31.bin
-Bitaxe
+## Bitaxe
 https://github.com/bitaxeorg/ESP-Miner/releases
 esp-miner-factory-401-v2.9.0.bin
-Download latest configuration
+# Download latest configuration
 https://github.com/powerminingio/bitaxe/tree/main/config
-Run bitaxetool
+# Run bitaxetool
 bitaxetool --firmware <path to the firmware>
 bitaxetool --config <path to the config>
 
-Sample command lines:
+#Sample command lines:
 bitaxetool --firmware ./config/esp-miner-factory-NerdQAxe++-v1.0.31.bin
 bitaxetool --config ./config/config_black_june.cvs
 
-Obsolete upgrade instructions
 bitaxetool --firmware ./esp-miner-factory-401-v2.4.2.bin
 bitaxetool --config ./config-401.cvs
 bitaxetool --config ./config-401.cvs --firmware ./esp-miner-factory-401-v2.4.2.bin
