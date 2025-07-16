@@ -18,7 +18,7 @@ esp-miner-factory-401-v2.9.0.bin
 `wget https://github.com/bitaxeorg/ESP-Miner/releases/download/v2.9.0/esp-miner-factory-601-v2.9.0.bin -O esp-miner-factory-bitaxe.bin`
 
 # Download latest configuration
-`wget https://raw.githubusercontent.com/powerminingio/bitaxe/refs/heads/main/config/Nerdqaxe%2B%2B_config_black_june.csv -O nerdqaxe_config.csv`
+`wget https://raw.githubusercontent.com/powerminingio/bitaxe/refs/heads/main/config/Nerdqaxe%2B%2B_config_black_june.csv -O nerdqaxe_config.csv`  
 `wget https://raw.githubusercontent.com/powerminingio/bitaxe/refs/heads/main/config/Bitaxe_config_401_july.csv -O bitaxe_config.csv`
 # Run bitaxetool
 ```
